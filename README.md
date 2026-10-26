@@ -6,7 +6,7 @@
 
 1. 安裝 [Ollama](https://ollama.com/download)。
 2. 下載模型：`ollama pull qwen3:4b`
-3. 下載本倉庫的 `downloads/ollama_voice_portable.py`。
+3. 下載本倉庫的 `ollama_voice_portable.py`。
 4. 文字與語音選擇模式：
 
 ```bash
@@ -30,7 +30,7 @@ sudo apt update && sudo apt install -y python3-pip libportaudio2 espeak-ng
 python3 -m pip install numpy sounddevice faster-whisper
 ```
 
-macOS 另提供原生版本 `downloads/ollama_say_zh_tw.py`，使用 Apple Speech 与 `say`，不需要 Whisper Python 套件。
+macOS 另提供原生版本 `ollama_say_zh_tw.py`，使用 Apple Speech 與 `say`，不需要 Whisper Python 套件。
 
 ## 隱私
 
